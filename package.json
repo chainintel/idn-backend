@@ -1,6 +1,6 @@
 {
   "name": "@idn/backend",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
     "watch": "tsc --watch",
     "test": "mocha --reporter spec",
     "prepublish": "tsc",
-    "dopublish": "npm publish --access=public"
+    "dopublish": "git add . ; git commit -m'bump version' ; git push origin master ; npm publish --access=public"
   },
   "author": "",
   "license": "ISC",
