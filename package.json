@@ -1,0 +1,29 @@
+{
+  "name": "@idn/backend",
+  "version": "1.1.4",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "mocha --reporter spec",
+    "prepublish": "tsc",
+    "dopublish": "npm publish --access=public"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chainintel/idn-backend.git"
+  },
+  "homepage": "https://github.com/chainintel/idn-backend#readme",
+  "url": "https://github.com/chainintel/idn-backend/issues",
+  "email": "support@chainintel.com",
+  "devDependencies": {
+    "@types/node": "^10.12.6"
+  },
+  "dependencies": {
+    "@idn/util-buffer": "^1.0.0"
+  }
+}
